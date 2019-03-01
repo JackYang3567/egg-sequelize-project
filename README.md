@@ -21,9 +21,21 @@ X-CSRF-TOKEN ： Cookies的csrfToken的值
 ## QuickStart
 
 <!-- add docs here for user -->
+1. 用egg-init 初始化项目:
+```
+egg-init --type=simple --dir=sequelize-project
+cd sequelize-project
+yarn
+```
+2. 安装依赖
+```
+yarn add egg-sequelize mysql2 sequelize-cli ramda
+```
 
-see [egg docs][egg] for more detail.
+3. 项目配置
+```
 
+```
 ### Development
 
 ```bash
